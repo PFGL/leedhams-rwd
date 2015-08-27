@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Leedhams
+Author: Jack Machin
 
 Stylesheet: 481px and Up Stylesheet
 
@@ -21,7 +21,6 @@ You can't use @extend within media queries
 anymore, so just be aware that if you drop
 them in here, they won't work.
 */
-
 
 /*********************
 NAVIGATION STYLES
@@ -82,24 +81,22 @@ POSTS & CONTENT STYLES
 } /* end .entry-content */
 
 /* at this larger size, we can start to align images */
-.alignleft, img.alignleft {
-  margin-right: 1.5em;
-  display: inline;
-  float: left;
+.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left;
 }
-.alignright, img.alignright {
-  margin-left: 1.5em;
-  display: inline;
-  float: right;
+.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right;
 }
-.aligncenter, img.aligncenter {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  clear: both;
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
 }
-
-
 
 /*********************
 FOOTER STYLES
@@ -114,4 +111,3 @@ do they need tweaking?
 		li {}
 	}
 } /* end .footer-links */
-
