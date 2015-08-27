@@ -9,7 +9,7 @@
                     <?php // get_sidebar ('testimonials');?>
 
                     <div class="subsidary-statement">
-                        <a href="http://www.pfgl.co.uk"><img src="<?php echo get_template_directory_uri(); ?>/library/images/perspective-logo-small.png" alt="<?php bloginfo('name'); ?>"></a>
+                        <a href="http://www.pfgl.co.uk"><img src="<?php echo get_template_directory_uri(); ?>/library/images/perspective-logo-small.png" alt="<?php bloginfo('name'); ?>" class="alignleft"></a>
                         <p><?php bloginfo('name'); ?> is a subsidiary of Perspective Financial Group Limited.</p>
                     </div>
 
