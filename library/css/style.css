@@ -1268,6 +1268,13 @@ select {
   background-repeat: no-repeat;
   background-position: 97.5% center; }
 
+/******************************************************************
+Site Name: Leedhams
+Author: Jack Machin
+
+Stylesheet: Cookie Styles
+
+******************************************************************/
 .cookie_layer {
   display: none;
   position: fixed;
