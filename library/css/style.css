@@ -884,8 +884,8 @@ I mean, you can do whatever you want. The world is your oyster. Unless
 you hate oysters, then the world is your peanut butter & jelly sandwich.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Leedham
+Author: Jack Machin
 
 Stylesheet: Alert Styles
 
@@ -915,8 +915,8 @@ you can just remove this stylesheet.
   background: #e6efc2; }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: Leedhams
+Author: Jack Machin
 
 Stylesheet: Button Styles
 
@@ -954,7 +954,8 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   cursor: pointer;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  .blue-btn:hover,
+  .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
     color: #fff;
     text-decoration: none; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
