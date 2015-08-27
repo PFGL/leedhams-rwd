@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Leedhams
+Author: Jack Machin
 
 Stylesheet: Sass Functions
 
@@ -38,7 +38,6 @@ box-shadow: 0 0 4px rgba(0,0,0,0.3);
 @function white($opacity) {
     @return rgba(255,255,255,$opacity);
 }
-
 
 /*********************
 RESPONSIVE HELPER FUNCTION

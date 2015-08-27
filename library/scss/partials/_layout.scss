@@ -3,7 +3,9 @@ Site Name: Leedhams
 Author: Jack Machin
 
 Stylesheet: Layout Stylesheet
+
 ******************************************************************/
+
 .wrapper {
 	@include clearfix;
 	max-width: $break-wide;
@@ -31,11 +33,11 @@ Stylesheet: Layout Stylesheet
             @include break(mobile, 12);
         }
 
-      #sidebar-header {
-        @include grid(4, $push:4);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
-      }
+        #sidebar-header {
+            @include grid(4, $push:4);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+        }
 
         .advice,
         .local {
