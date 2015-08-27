@@ -2286,6 +2286,10 @@ FOOTER STYLES
 .subsidary-statement {
   background-color: #898989; }
 
+.tiny-logo {
+  padding: 1em;
+  float: left; }
+
 /*
 	if you checked out the link above:
 	http://www.alistapart.com/articles/organizing-mobile/
