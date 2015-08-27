@@ -10,6 +10,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var minifyCSS = require('gulp-minify-css');
 var cssmin = require('gulp-cssmin');
+var csso = require('gulp-csso');
 var imagemin = require('gulp-imagemin');
 
 // Lint Task
@@ -28,6 +29,14 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('library/css'))
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('library/css'));
+});
+
+gulp.task('css', function () {
+    "use strict";
+    return gulp.src('library/css/style.css')
+        .pipe(csso())
+        .pipe(rename('style.min.css'))
         .pipe(gulp.dest('library/css'));
 });
 
@@ -54,7 +63,8 @@ gulp.task('watch', function () {
     gulp.watch('./library/js/**/*.js', ['lint', 'scripts']);
     gulp.watch('./library/scss/*.scss', ['sass']);
     gulp.watch('./library/scss/**/*.scss', ['sass']);
+    gulp.watch('./library/css/style.css', ['css']);
 });
 
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['lint', 'sass', 'sass', 'scripts', 'watch']);
