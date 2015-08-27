@@ -2273,7 +2273,8 @@ FOOTER STYLES
   color: #f8f9fa; }
 
 .subsidary-statement {
-  background-color: #898989; }
+  background-color: #898989;
+  line-height: 35px; }
 
 .tiny-logo {
   padding: 1em;
