@@ -1946,11 +1946,6 @@ POST FORMATS
   border: none;
   padding: 0; }
 
-/* Wrapper for entire chat transcript. */
-/* Individual section of the chat. */
-/* Individual speaker in the chat. */
-/* Chat author. */
-/* Chat text. */
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
@@ -1974,7 +1969,8 @@ PAGE NAVI STYLES
     display: inline;
     overflow: hidden;
     border-right: 1px solid #999; }
-  .pagination a, .pagination span {
+  .pagination a,
+  .pagination span {
     margin: 0;
     text-decoration: none;
     padding: 0;
@@ -1985,13 +1981,17 @@ PAGE NAVI STYLES
     min-width: 1em;
     display: block;
     color: #2980b9; }
-    .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
+    .pagination a:hover,
+    .pagination a:focus,
+    .pagination span:hover,
+    .pagination span:focus {
       background-color: #2980b9;
       color: #fff; }
   .pagination .current {
     cursor: default;
     color: #404040; }
-    .pagination .current:hover, .pagination .current:focus {
+    .pagination .current:hover,
+    .pagination .current:focus {
       background-color: #fff;
       color: #404040; }
 
