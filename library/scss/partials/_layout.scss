@@ -75,15 +75,14 @@ Stylesheet: Layout Stylesheet
     @include break(mobile, 12);
 }
 
-
-        .sub-link {
-            @include grid(4);
-        }
+    .sub-link {
+        @include grid(4);
+    }
        .sidebar {
-        @include grid(3);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
-       }
+            @include grid(3);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+        }
 
 .footer-sidebar {
     @include grid(4);
@@ -91,9 +90,9 @@ Stylesheet: Layout Stylesheet
     @include break(mobile, 12);
 }
 
-        .widget {
-        	@include clearfix;
-        }
+    .widget {
+        @include clearfix;
+    }
 
         .tab {
             @include grid(12, $margin:0);
