@@ -11,7 +11,7 @@
 
         <div id="inner-content" class="container">
 
-            <div class="main"  role="main">
+            <main class="main"  role="main">
 
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -34,7 +34,7 @@
 
                 <?php endif; ?>
 
-            </div>
+            </main>
 
         <?php get_sidebar(); ?>
 
