@@ -65,7 +65,9 @@
 
                         </div>
 
-                        <?php get_template_part ( 'partials/article-footer' ,'index'); ?>
+                        <footer class="article-footer">
+
+                        </footer>
 
                     </article>
 
