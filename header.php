@@ -35,16 +35,16 @@
 		<?php // end of wordpress head ?>
 
 		<?php // drop Google Analytics Here ?>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-20034801-24', 'auto');
-  ga('send', 'pageview');
+              ga('create', 'UA-20034801-24', 'auto');
+              ga('send', 'pageview');
 
-</script>
+            </script>
 		<?php // end analytics ?>
 	</head>
 
@@ -62,13 +62,13 @@
                 </div>
                 <?php get_sidebar ('header');?>
 
-                <nav role="navigation" class="navigation">
+                <nav role="navigation" class="container">
 
                   <?php wp_nav_menu(array(
                     'container' => false,                           // remove nav container
                     'container_class' => '',                 // class of container (should you choose to use it)
                     'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-                    'menu_class' => 'nav top-nav cf',               // adding custom nav class
+                    'menu_class' => 'nav top-nav navigation',               // adding custom nav class
                     'theme_location' => 'main-nav',                 // where it's located in the theme
                     'before' => '',                                 // before the menu
                     'after' => '',                                  // after the menu
