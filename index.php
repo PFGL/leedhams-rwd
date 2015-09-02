@@ -16,7 +16,7 @@
 
                         <header class="article-header">
 
-                            <div class="date">
+                            <div class="date-container">
                                 <span class="day"><?php the_time('d') ?> </span>
                                 <span class="month"><?php the_time('M'); ?></span>
                             </div><!--date-->
