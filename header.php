@@ -63,13 +63,13 @@
                 <?php get_sidebar ('header');?>
 
             </div>
-            <nav role="navigation" class="container">
+            <nav role="navigation" class="navigation">
 
                   <?php wp_nav_menu(array(
                     'container' => false,                           // remove nav container
                     'container_class' => '',                 // class of container (should you choose to use it)
                     'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-                    'menu_class' => 'nav top-nav navigation',               // adding custom nav class
+                    'menu_class' => 'nav top-nav cf',               // adding custom nav class
                     'theme_location' => 'main-nav',                 // where it's located in the theme
                     'before' => '',                                 // before the menu
                     'after' => '',                                  // after the menu
